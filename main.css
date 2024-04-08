@@ -1,0 +1,110 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px;
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    border: 10px grey solid;
+    border-radius: 15px;
+    gap: 10px;
+
+}
+
+.two--pink{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+
+}
+
+
+.pink1{
+    flex: 65%;
+    width: 100px;
+    height: 125px;
+    background-color: deeppink;
+
+
+}
+
+.pink2{
+    flex: 35%;
+    width: 100px;
+    height: 125px;
+    background-color: deeppink;
+
+
+}
+
+.sari--violet{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.big--yellow{
+    height: 210px;
+    width: 250px;
+    background-color: orange;
+    flex: 50;
+}
+
+.two--violet{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+
+}
+
+.violet1{
+    background-color: rgb(75, 1, 75);
+    width: 250px;
+    height: 100px;
+}
+
+.violet2{
+    background-color: rgb(75, 1, 75);
+    width: 250px;
+    height: 100px;
+
+}
+
+.uc--mavi{
+    display: flex;
+    gap: 10px;
+}
+
+.mavi1{
+    width: 100px;
+    height: 125px;
+    background-color: blue;
+    flex: 1;
+}
+
+.mavi2{
+    width: 100px;
+    height: 125px;
+    background-color: blue;
+    flex: 2;
+}
+.mavi3{
+    width: 100px;
+    height: 125px;
+    background-color: blue;
+    flex: 1;
+}
+

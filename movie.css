@@ -1,0 +1,122 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.movie--list--box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+}
+
+
+.her{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 400px;
+    background-color: rgb(164, 159, 159);
+    border-radius: 20px;
+    transition: 150ms all linear;
+    cursor: pointer;
+}
+
+.her:hover{
+    box-shadow: 0 8px 16px 0 rgb(164, 159, 159);
+}
+
+.her:hover img{
+    transform: scale(1.05);
+}
+
+img{
+    width: 70%;
+    border-radius: 20px;
+}
+
+
+
+.poor--things{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 400px;
+    background-color: rgb(164, 159, 159);
+    border-radius: 20px;
+    transition: 150ms all linear;
+    cursor: pointer;
+}
+
+.poor--things:hover{
+    box-shadow: 0 8px 16px 0 rgb(164, 159, 159);
+}
+
+.poor--things:hover img{
+    transform: scale(1.05);
+}
+
+img{
+    width: 70%;
+    border-radius: 20px;
+}
+
+.handmaiden{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 400px;
+    background-color: rgb(164, 159, 159);
+    border-radius: 20px;
+    transition: 150ms all linear;
+    cursor: pointer;
+}
+
+.handmaiden:hover{
+    box-shadow: 0 8px 16px 0 rgb(164, 159, 159);
+}
+
+.handmaiden:hover img{
+    transform: scale(1.05);
+}
+
+img{
+    width: 70%;
+    border-radius: 20px;
+}
+
+.yoda{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 400px;
+    background-color: rgb(164, 159, 159);
+    border-radius: 20px;
+    transition: 150ms all linear;
+    cursor: pointer;
+}
+
+.yoda:hover{
+    box-shadow: 0 8px 16px 0 rgb(164, 159, 159);
+}
+
+.yoda:hover img{
+    transform: scale(1.05);
+}
+
+img{
+    width: 70%;
+    border-radius: 20px;
+}
+
+
